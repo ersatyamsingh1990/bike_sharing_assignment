@@ -38,8 +38,9 @@ cnt = 0.174 + (0.234 * yr) - (0.056 * holiday) + (0.047 * workingday) + (0.473 *
       + (0.08 * season_Winter) - (0.039 * mnth_Jan) - (0.048 * mnth_Jul) 
       + (0.075 * mnth_Sep) + (0.058 * weekday_Sat) - (0.292 * weathersit_Light Rain or Light Snow) 
       - (0.083 * weathersit_Misty and Cloudy)
-
+```
 ## Technologies Used
+
 NumPy: For numerical calculations and array operations.
 Pandas: For data manipulation and analysis.
 Matplotlib: For data visualization.
